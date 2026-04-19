@@ -1,3 +1,4 @@
+<!-- parent: librarian -->
 # homebrew-cordfuse
 
 Homebrew tap for Cordfuse tools. One formula per Cordfuse project.
