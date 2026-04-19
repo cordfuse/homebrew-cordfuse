@@ -11,15 +11,13 @@ brew tap cordfuse/cordfuse
 Then install any Cordfuse tool:
 
 ```bash
-brew install cortex-setup
+brew install <formula-name>
 ```
 
 ## Formulae
 
-| Formula | Description |
-|---|---|
-| `cortex-setup` | First-time setup wizard for [Cortex](https://github.com/cordfuse/cortex) |
+No formulae yet — coming soon.
 
-## Adding a new formula
+## Adding a formula
 
 Place the `.rb` file in `Formula/`. The release pipeline for each Cordfuse project updates its formula automatically on tag push.

@@ -6,13 +6,12 @@ Homebrew tap for Cordfuse tools. One formula per Cordfuse project.
 ## Structure
 
 ```
-Formula/          # One .rb file per tool
-  cortex-setup.rb
+Formula/          # One .rb file per tool — currently empty
 ```
 
 ## Adding a formula
 
-Copy an existing `.rb` as a template. Each project's release pipeline updates its own formula via the `homebrew.yml` workflow in that project's repo.
+Create a new `.rb` in `Formula/`. Each project's release pipeline should update its own formula via a `homebrew.yml` workflow in that project's repo. Use the old `cortex-setup.rb` (in git history) as a reference.
 
 ## Tap
 
