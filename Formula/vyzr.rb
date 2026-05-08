@@ -1,28 +1,28 @@
 class Vyzr < Formula
   desc "Vyzr — manage AI agents and the Vyzr server from your terminal"
   homepage "https://github.com/cordfuse/vyzr"
-  version "0.5.8"
+  version "0.5.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cordfuse/vyzr/releases/download/v0.5.8/vyzr-darwin-arm64"
-      sha256 "de9fa0e239ad51f7bd25f3312eab29be79e55e6db765861f6f2e366663bebba5"
+      url "https://github.com/cordfuse/vyzr/releases/download/v0.5.9/vyzr-darwin-arm64"
+      sha256 "e36ea70a78bc95f3f022b44297f1414f963da2c0842f9cec7a3ffaa68b9ea0b0"
     end
     on_intel do
-      url "https://github.com/cordfuse/vyzr/releases/download/v0.5.8/vyzr-darwin-x64"
-      sha256 "610aeba88c662c5280a67d83a1fa89f6149a1145cdc7f1f6b526e792a4e5de64"
+      url "https://github.com/cordfuse/vyzr/releases/download/v0.5.9/vyzr-darwin-x64"
+      sha256 "756a834c14ae38e5e1ef605730a575711057308f36fac61911b62c10723b71f9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cordfuse/vyzr/releases/download/v0.5.8/vyzr-linux-x64"
-      sha256 "59971f8fc7566951185319159918d04e073b9d2ae445fb96a7ede4accac31c14"
+      url "https://github.com/cordfuse/vyzr/releases/download/v0.5.9/vyzr-linux-x64"
+      sha256 "1ef23e4fb8b773331ae29bf120942c4d6bc5dac6785f233f1fa072d35cee5c1b"
     end
     on_arm do
-      url "https://github.com/cordfuse/vyzr/releases/download/v0.5.8/vyzr-linux-arm64"
-      sha256 "2b71e90a2b02ef82fb059cb07cb490ff6341fb9a0bdd04101a52d964e0ebc922"
+      url "https://github.com/cordfuse/vyzr/releases/download/v0.5.9/vyzr-linux-arm64"
+      sha256 "e2cc80eaabb229d8466ce4f39cc9a74b9408ad6875896c57cdabaf43fe68d89c"
     end
   end
 
