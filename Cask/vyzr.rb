@@ -14,11 +14,11 @@ cask "vyzr" do
 
   on_arm do
     url "https://github.com/cordfuse/vyzr/releases/download/v#{version}/Vyzr-#{version}-arm64.dmg"
-    sha256 "REPLACE_WITH_DARWIN_ARM64_DMG_SHA256"
+    sha256 "11cd1b7f3721bb9956153addd22f8470bb17262ec3c7808d6797539fba123938"
   end
   on_intel do
     url "https://github.com/cordfuse/vyzr/releases/download/v#{version}/Vyzr-#{version}.dmg"
-    sha256 "REPLACE_WITH_DARWIN_X64_DMG_SHA256"
+    sha256 "2a2eb5e77a4ef2d3633531c9ae4c1e2d398554a2e2603a23240bdf1ac3554985"
   end
 
   name "Vyzr"
