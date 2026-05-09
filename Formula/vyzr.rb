@@ -1,39 +1,28 @@
-# Formula for homebrew tap: cordfuse/homebrew-cordfuse
-# Lives at: Formula/vyzr.rb
-#
-# Install:
-#   brew tap cordfuse/cordfuse
-#   brew install vyzr
-#
-# This formula is auto-bumped by cordfuse/vyzr's homebrew.yml workflow on
-# every tag — the version + sha256 below get rewritten in lockstep with
-# the bun-compiled binaries attached to the GitHub release.
-
 class Vyzr < Formula
   desc "Vyzr — manage AI agents and the Vyzr server from your terminal"
   homepage "https://github.com/cordfuse/vyzr"
-  version "0.7.2"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cordfuse/vyzr/releases/download/v0.7.2/vyzr-darwin-arm64"
-      sha256 "ac72d1f8c3b7bcd114d96c7dd95383a41def8aa5f6d24ba13829ecfefb4452c1"
+      url "https://github.com/cordfuse/vyzr/releases/download/v0.8.0/vyzr-darwin-arm64"
+      sha256 "fa87fdfb0aef77011545e688098f2efb05612d9bf9fc55ab6f817a26bd341626"
     end
     on_intel do
-      url "https://github.com/cordfuse/vyzr/releases/download/v0.7.2/vyzr-darwin-x64"
-      sha256 "4bafd1980bb4bc52d1be8ea577ab847810aaafb966494d380778d6d74d33cf5a"
+      url "https://github.com/cordfuse/vyzr/releases/download/v0.8.0/vyzr-darwin-x64"
+      sha256 "6c80b7c74f6a4dbc08f37a72ebb54cefc6a6463bb76adcb967f1b745d2302d65"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/cordfuse/vyzr/releases/download/v0.7.2/vyzr-linux-x64"
-      sha256 "390cb385cc716ee3708107ec58fc8b9219418c43869f97e8ec34237a41fea989"
+      url "https://github.com/cordfuse/vyzr/releases/download/v0.8.0/vyzr-linux-x64"
+      sha256 "7cb1ceb4114ea2dcc60523cf794072c23d28f2a12fa025ccf3104160cef50a03"
     end
     on_arm do
-      url "https://github.com/cordfuse/vyzr/releases/download/v0.7.2/vyzr-linux-arm64"
-      sha256 "fb1440ad31280e10df08392e2de5ffda707d42aaea5c241cae9f6a1e98b24453"
+      url "https://github.com/cordfuse/vyzr/releases/download/v0.8.0/vyzr-linux-arm64"
+      sha256 "95b5ee23609c30dd8f834c1dea8799127d5cf3ff995dfb752a094ce8b91fd5a6"
     end
   end
 
