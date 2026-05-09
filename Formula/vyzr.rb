@@ -1,3 +1,14 @@
+# Formula for homebrew tap: cordfuse/homebrew-cordfuse
+# Lives at: Formula/vyzr.rb
+#
+# Install:
+#   brew tap cordfuse/cordfuse
+#   brew install vyzr
+#
+# This formula is auto-bumped by cordfuse/vyzr's homebrew.yml workflow on
+# every tag — the version + sha256 below get rewritten in lockstep with
+# the bun-compiled binaries attached to the GitHub release.
+
 class Vyzr < Formula
   desc "Vyzr — manage AI agents and the Vyzr server from your terminal"
   homepage "https://github.com/cordfuse/vyzr"
